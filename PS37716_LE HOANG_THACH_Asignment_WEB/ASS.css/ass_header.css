@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    background-color: #a6e8f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(151, 186, 155);
+    padding-left: 20px;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    background-image: url(/Image/Logo_bds.png);
+    background-repeat: no-repeat;
+    background-size: 100% 235px;
+}
+
+.head-logo img {
+    margin-right: 20px;
+}
+.head-logo h2 > a{
+    text-decoration: none;
+    color: black;
+}
+.head-banner ul {
+    list-style-type: none;
+    padding-top: 110px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-variant: small-caps;
+    font-size: 22px;
+}
+
+.head-banner li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.head-banner a {
+    text-decoration: none;
+    color: rgb(139, 39, 5);
+    text-decoration: none;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(225, 181, 78);
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.header-menu  .menu-banner{
+    width: 100%;
+    padding: 0;
+    display: flex;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: #563a07;
+}
+.menu-banner > li{
+    display: inline-block;
+    position: relative;
+    padding: 0px 40px;
+    margin: 0px;
+    background-color: rgb(225, 181, 78);
+
+}
+.menu-banner > li:hover > ul {
+    display: block;
+}
+.menu-banner  > li > ul {
+    display: none;
+    position: absolute;
+    padding: 15px;
+    padding-left: 10px;
+    width: 100%;
+    list-style: none;;
+}
+.menu-banner > li > ul > li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #563a07;
+    background-color: rgb(242, 242, 240);
+}
+.menu-banner > li > ul > li > a {
+    display: block;
+    padding: 10px 0px;
+    margin: 1px;
+    border: 1 solid #563a07;
+    width: 100%;
+}
+
+.menu-banner > li > ul > li > a:hover {
+    background-color: rgb(77, 58, 13);
+    color: rgb(242, 242, 240);
+
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin: 15px;
+}
+
+input[type="text"] {
+    padding: 6px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+input[type="submit"] {
+    padding: 4px 8px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: 1px solid #4caf50;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
